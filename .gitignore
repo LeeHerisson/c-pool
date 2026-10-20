@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Результаты сборки
+build/
+*.o
+*.dSYM/
+a.out
+
+# Индекс clangd
+.cache/clangd/
