@@ -28,7 +28,10 @@ int main(void) {
   printf("Total length: %.2f\n", total);
   printf("Grade: %c\n", grade);
 
-  printf("")
+  bool flag = false;
+  _Bool flag1 = 1;
 
-      return 0;
+  printf("%d %d", flag, flag1);
+
+  return 0;
 }
