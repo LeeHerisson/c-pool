@@ -2,7 +2,6 @@
 
 int main(void) {
   /*
-
   // Task 1
   char symbol;
   scanf(" %c", &symbol);
@@ -69,8 +68,7 @@ int main(void) {
   printf("Топливо: %.2f л\n", litres);
   double total_price = litres * price;
   printf("Стоимость: %.2f\n", total_price);
-
-   */
+  */
 
   return 0;
 }

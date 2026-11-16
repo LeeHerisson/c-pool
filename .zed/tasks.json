@@ -64,6 +64,6 @@
     "label": "C: build and run",
     "cwd": "$ZED_DIRNAME",
     "save": "all",
-    "command": "mkdir -p build && clang -std=c11 -Wall -Wextra -Werror -g main.c -o build/main && ./build/main",
+    "command": "mkdir -p build && clang -std=c11 -Wall -Wextra -Werror -g \"$ZED_FILENAME\" -o \"build/$ZED_STEM\" && \"./build/$ZED_STEM\"",
   },
 ]
